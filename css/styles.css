@@ -96,7 +96,7 @@ h1 {
     font-size: 3rem;
     color:#f9faf8;
     line-height: 1.1;
-    font-weight: bolder;
+    font-weight:900 ;
     max-width: 13ch;
 }
 
@@ -112,9 +112,8 @@ h1 {
 .info {
     max-width: 1400px;
     margin: 0 auto;
+} 
 
-
-}
 .info-layout {
     display: flex;
     justify-content: space-around;
@@ -128,11 +127,12 @@ h1 {
     text-align: center;
     margin-block: 1rem;;
     font-size: 2.25rem;
-    font-weight: bolder;
+    font-weight: 900;
     color: #1f1f1f;
 }
 .image-box {
-    max-width:300px ;
+    width:300px;
+    height:300px;
     border-radius: 0.8rem;
     border: 5px solid #3882f6;
 }
@@ -149,7 +149,7 @@ h1 {
     font-size: 2rem;
     font-weight:300;
     font-style: italic;
-    max-width: 1350px;
+    max-width: 1400px;
     
 }
 .quote-name {
